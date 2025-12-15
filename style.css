@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 20px;
+	color: #ffffff;
+	font-size: 17px;
+	text-align: center;
+	background: #24244A;
+	font-family: Menlo, Consolas, monospace;
+}
+
+.box {
+	padding: 15px 20px;
+	border-radius: 6px;
+	display: inline-block;
+	border: 1.6px solid #92c7c9;
+}
+
+.line {
+	width: 80%;
+	max-width: 520px;
+	margin: 20px auto;
+	border-bottom: 1.6px solid #92c7c9;
+}
+
+a {
+	color: #d94a4a;
+	font-weight: bold;
+	text-decoration: underline;
+}
