@@ -2,7 +2,10 @@ body {
 	margin: 0;
 	padding: 20px;
 	color: #ffffff;
+	margin: 0 auto;
 	font-size: 18px;
+	line-height: 1.6;
+	max-width: 700px;
 	text-align: center;
 	background: #24244A;
 	font-family: Menlo, Consolas, monospace;
@@ -28,10 +31,20 @@ a {
 	text-decoration: underline;
 }
 
+h3 {
+	font-size: 18px;
+	line-height: 1.2;
+	margin: 20px 0 10px;
+}
+
 @media (max-width: 600px) {
 	body {
-		line-height: 1.4;
-		font-size: 30px;
+		line-height: 1.6;
+		font-size: 17px;
+		padding: 10px;
+	}
+
+	.box {
 		padding: 10px;
 	}
 }
