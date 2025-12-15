@@ -30,7 +30,8 @@ a {
 
 @media (max-width: 600px) {
 	body {
-		font-size: 18px;
+		line-height: 1.4;
+		font-size: 25px;
 		padding: 10px;
 	}
 }
