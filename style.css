@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Cordata";
+  src: url("./pxplus-cordata/PxPlus_Cordata_PPC-400.ttf") format("truetype");
+}
+
 body {
 	margin: 0;
 	padding: 15px;
@@ -7,13 +12,12 @@ body {
 	max-width: 700px;
 	line-height: 1.6;
 	text-align: center;
-	background: #24244A;
-	font-family: Menlo, Consolas, monospace;
+	background: #0a0a0b;
+	font-family: "Cordata", monospace;
 }
 
 .box {
 	padding: 10px 15px;
-	border-radius: 6px;
 	display: inline-block;
 	border: 1.6px solid #92c7c9;
 }
